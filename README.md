@@ -154,6 +154,72 @@ Download Sec 3. samples - [link](https://drive.google.com/drive/folders/1pgyolhb
 
 <br>
 
+### 4. 16K (16,384 x 10,912) image synthesized by OUR-GAN trained with a single 16K training image.
+OUR-GAN can synthesize UHR image with 16K training image. \
+Download Sec 4. samples - [island](https://drive.google.com/drive/folders/1C46bl3boX6C7ejnESXfSFtIW3eW7DHVE?usp=share_link), [forest](https://drive.google.com/drive/folders/1COCmJ_Rb7JFJZA6CnhmJrLdTmp3cVyhv?usp=share_link)
+
+
+
+<br>
+
+
+<table>
+<thead>
+  <tr>
+    <th><a href="https://drive.google.com/file/d/1M9Vg5MbhA7ieT7MBwVocEJciOwbLjKxi/view?usp=share_link" target="_blank"><img src="/assets/images/downsampled/our_island_16K_1_downsampled.png" alt="16k_our_island"></a></th>
+  </tr>
+</thead>
+<tbody>
+ <tr>
+    <td><div align=center><b>16K (16,384 x 9,152) island images synthesized by OUR-GAN</b></div></td>
+ </tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+  <tr>
+    <th><a href="https://drive.google.com/file/d/1Dl-Vn00yzv4YCcNzzKgmw_02QyNgqsrI/view?usp=share_link" target="_blank"><img src="/assets/images/downsampled/16K_island_GT_downsampled.png" alt="16k_train_island"></a></th>
+  </tr>
+</thead>
+<tbody>
+ <tr>
+    <td><div align=center><b>16K (16,329 x 9,185) island training image</b></div></td>
+ </tr>
+</tbody>
+</table>
+
+<br>
+
+
+<table>
+<thead>
+  <tr>
+    <th><a href="https://drive.google.com/file/d/1MISvmIiM2SAlzpWghHrGcos2NyRwoxES/view?usp=share_link" target="_blank"><img src="/assets/images/downsampled/our_forest_16K_0_downsampled.png" alt="16k_our_forest"></a></th>
+  </tr>
+</thead>
+<tbody>
+ <tr>
+    <td><div align=center><b>16K (16,384 x 10,880) forest images synthesized by OUR-GAN</b></div></td>
+ </tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+  <tr>
+    <th><a href="https://drive.google.com/file/d/14lJWmP6qo8wBtiwtvBAMcbqJJNvGqitX/view?usp=share_link" target="_blank"><img src="/assets/images/downsampled/16K_forest_GT_downsamled.png" alt="16k_train_forest"></a></th>
+  </tr>
+</thead>
+<tbody>
+ <tr>
+    <td><div align=center><b>16K (16,384 x 10,880) forest training image</b></div></td>
+ </tr>
+</tbody>
+</table>
+
 ### References
 
 <b>[1] Shir Gur, Sagie Benaim, and Lior Wolf. Hierarchical patch vae-gan: Generating diverse videos from a single
