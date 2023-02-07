@@ -155,7 +155,7 @@ Download Sec 3. samples - [link](https://drive.google.com/drive/folders/1pgyolhb
 <br>
 
 ### 4. 16K (16,384 x 10,912) image synthesized by OUR-GAN trained with a single 16K training image.
-OUR-GAN-16K can synthesize 16K images from single 16K training image with single GPU. \
+OUR-GAN-16K can synthesize 16K images from a single 16K training image with a single GPU. \
 We further increased the resolution of OUR-GAN by applying an additional subregion-wise super-resolution step, referred to as OUR-GAN-16K. \
 OUR-GAN-16K successfully synthesized non-repetitive high-fidelity 16K images maintaining both visual coherence and fine details. \
 % The size of the biggest island at the rigth of the image is approximately 7,083 × 4,388. \
