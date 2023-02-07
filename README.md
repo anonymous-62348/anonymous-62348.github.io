@@ -210,7 +210,7 @@ Download Sec 4. samples - [island](https://drive.google.com/drive/folders/1C46bl
 <table>
 <thead>
   <tr>
-    <th><a href="https://drive.google.com/file/d/14lJWmP6qo8wBtiwtvBAMcbqJJNvGqitX/view?usp=share_link" target="_blank"><img src="/assets/images/downsampled/16K_forest_GT_downsamled.png" alt="16k_train_forest"></a></th>
+    <th><a href="https://drive.google.com/file/d/14lJWmP6qo8wBtiwtvBAMcbqJJNvGqitX/view?usp=share_link" target="_blank"><img src="/assets/images/downsampled/16K_forest_GT_downsampled.png" alt="16k_train_forest"></a></th>
   </tr>
 </thead>
 <tbody>
