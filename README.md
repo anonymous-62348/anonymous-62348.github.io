@@ -1,7 +1,7 @@
 ## OUR-GAN: One-shot Ultra-high-Resolution Generative Adversarial Networks - Demo
 
 ### Abstract
-We propose OUR-GAN, the first one-shot ultra-high-resolution (UHR) image synthesis framework that generates non-repetitive images with 4K or higher resolution from a single training image. OUR-GAN generates a visually coherent image at low resolution and then gradually increases the resolution by super-resolution. Since OUR-GAN learns from a real UHR image, it can synthesize large-scale shapes with fine details while maintaining long-range coherence, which is difficult with conventional generative models that generate large images based on the patch distribution learned from relatively small images. OUR-GAN applies seamless subregion-wise super-resolution that synthesizes 4k or higher UHR images with limited memory preventing discontinuity at the boundary. Additionally, OUR-GAN improves diversity and visual coherence by adding vertical positional embeddings to the feature maps. In experiments on the ST4K and RAISE datasets, OUR-GAN exhibited improved fidelity, visual coherency, and diversity compared with existing methods. The synthesized images are presented at https://anonymous-62348.github.io.
+We propose a one-shot ultra-high-resolution (UHR) image synthesis framework, OUR-GAN, that generates non-repetitive 16K ($16,384\times8,644$) images from a single training image and is trainable on a single GPU. OUR-GAN generates an initial image that is visually consistent and varied in shape at low resolution, then gradually increases the resolution by adding detail through super-resolution. Since OUR-GAN learns from a real UHR image, it can synthesize large-scale shapes with fine details while maintaining long-range coherence, which is difficult with conventional generative models that rely on the patch distribution learned from relatively small images. OUR-GAN can synthesize high-quality 4K images with only 8GB of GPU memory and 16K images with 12.5GB, as it synthesizes a UHR image part by part through seamless subregion-wise super-resolution, preventing discontinuity at the subregion boundary. Additionally, OUR-GAN improves visual coherence while maintaining diversity by applying vertical positional convolution. In experiments on the ST4K and RAISE datasets, OUR-GAN exhibited improved fidelity, visual coherency, and diversity compared with the baseline one-shot synthesis models. To the best of our knowledge, OUR-GAN is the first one-shot image synthesizer that generates non-repetitive UHR images on a single GPU.
 <br>
 <br>
 
@@ -121,7 +121,7 @@ Download Sec 3. samples - [link](https://drive.google.com/drive/folders/1pgyolhb
 <thead>
   <tr>
     <th><a href="https://drive.google.com/file/d/1gCqqCaIP_yFMkt5zrreh8smXB-NLlTlQ/view?usp=sharing" target="_blank"><img src="/assets/images/large/our_1k_0.png" alt="large_our_0"></a></th>
-    <th><a href="https://drive.google.com/file/d/1rYitkLTsLlINzruv1m_I9565SxOPO6tP/view?usp=sharing" target="_blank"><img src="/assets/images/large/our_1k_1.png" alt="large_our_1"></a></th>
+   <th><a href="https://drive.google.com/file/d/1rYitkLTsLlINzruv1m_I9565SxOPO6tP/view?usp=sharing" target="_blank"><img src="/assets/images/large/our_1k_1.png" alt="large_our_1"></a></th>
  </tr>
 </thead>
 <tbody>
@@ -155,7 +155,10 @@ Download Sec 3. samples - [link](https://drive.google.com/drive/folders/1pgyolhb
 <br>
 
 ### 4. 16K (16,384 x 10,912) image synthesized by OUR-GAN trained with a single 16K training image.
-OUR-GAN can synthesize UHR image with 16K training image. \
+OUR-GAN-16K can synthesize 16K images from single 16K training image with single GPU. \
+We further increased the resolution of OUR-GAN by applying an additional subregion-wise super-resolution step, referred to as OUR-GAN-16K. \
+OUR-GAN-16K successfully synthesized non-repetitive high-fidelity 16K images maintaining both visual coherence and fine details. \
+% The size of the biggest island at the center of the image is approximately 4, 913 × 4, 314. \
 Download Sec 4. samples - [island](https://drive.google.com/drive/folders/1C46bl3boX6C7ejnESXfSFtIW3eW7DHVE?usp=share_link), [forest](https://drive.google.com/drive/folders/1COCmJ_Rb7JFJZA6CnhmJrLdTmp3cVyhv?usp=share_link)
 
 
