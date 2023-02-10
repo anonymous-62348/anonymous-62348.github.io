@@ -33,7 +33,7 @@ Download Sec 1. samples - [link](https://drive.google.com/drive/folders/1gjs8TEq
 </thead>
 <tbody>
  <tr>
-    <td><div align=center><b>16K (16,384 x 10,912) Images synthesized by OUR-GAN</b></div></td>
+    <td><div align=center><b>16K (16,384 x 10,912) image synthesized by OUR-GAN</b></div></td>
  </tr>
 </tbody>
 </table>
@@ -64,7 +64,7 @@ Download Sec 1. samples - [link](https://drive.google.com/drive/folders/1gjs8TEq
 </thead>
 <tbody>
  <tr>
-    <td colspan="2"><div align=center><b>8K (8,192 x 5,456) images synthesized by OUR-GAN</b></div></td>
+    <td colspan="2"><div align=center><b>8K (8,192 x 5,456) image synthesized by OUR-GAN</b></div></td>
  </tr>
 </tbody>
 </table>
@@ -174,7 +174,7 @@ Download Sec 4. samples - [island](https://drive.google.com/drive/folders/1C46bl
 </thead>
 <tbody>
  <tr>
-    <td><div align=center><b>16K (16,384 x 9,152) island images synthesized by OUR-GAN</b></div></td>
+    <td><div align=center><b>16K (16,384 x 9,152) island image synthesized by OUR-GAN</b></div></td>
  </tr>
 </tbody>
 </table>
@@ -204,7 +204,7 @@ Download Sec 4. samples - [island](https://drive.google.com/drive/folders/1C46bl
 </thead>
 <tbody>
  <tr>
-    <td><div align=center><b>16K (16,384 x 10,880) forest images synthesized by OUR-GAN</b></div></td>
+    <td><div align=center><b>16K (16,384 x 10,880) forest image synthesized by OUR-GAN</b></div></td>
  </tr>
 </tbody>
 </table>
