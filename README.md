@@ -17,7 +17,7 @@ Download all samples (including all sections) - [link](https://drive.google.com/
 <br>
 
 ### ST4K
-To train and evaluate OUR-GAN, we built a new UHR image dataset, **S**cenery and **T**exture-**4K** (**ST4K**), consisting of high-quality 4K scenery and texture images. The ST4K dataset includes a total of 50 copyright-free images collected from the Internet with a minimum resolution of 4,096 × 2,160 pixels.
+To train and evaluate OUR-GAN, we built a new UHR image dataset, **S**cenery and **T**exture-**4K** (**ST4K**), consisting of high-quality 4K scenery and texture images. The ST4K dataset includes a total of 50 copyright-free images collected from the Internet with a minimum resolution of 4,096 × 2,160 pixels. \
 Download ST4K - [link](https://drive.google.com/drive/folders/1NtVU7UAXEJ-E9fW0V44nNGwQ3_cF3wMs)
 <br>
 <br>
